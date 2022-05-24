@@ -15,3 +15,51 @@ body {
   max-width: 1000px;
   margin: auto;
   overflow: hidden; }
+  header {
+    background: url("../img/bg22.png"), #E7BCB9;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-height: 650px; }
+    header .menu {
+      margin: 40px 0px;
+      text-align: right; }
+      header .menu a {
+        margin: 0 40px;
+        color: #fff;
+        padding-bottom: 10px;
+        font-size: 1em;
+        display: inline-block;
+        text-decoration: none;
+        border-bottom: 3px solid transparent; }
+        header .menu a:hover {
+          border-bottom: 2px solid #fff; }
+    header .contenedor-texto {
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      margin: 120px 0; }
+      header .contenedor-texto .texto {
+        border: 3px solid #610B21;
+        background: #fff;
+        border-radius: 3px;
+        display: inline-block;
+        text-align: center;
+        align-content: center;
+        padding: 50px 20px; }
+        header .contenedor-texto .texto h1, header .contenedor-texto .texto h2 {
+          font-weight: 300;
+          margin: 0; }
+        header .contenedor-texto .texto .nombre {
+          color: #000;
+          font-family:"Best Stories";
+          margin-bottom: 10px;
+          font-size: 80px;
+          line-height: 50px; }
+        header .contenedor-texto .texto .profesion {
+          font-family:"LEMON MILK";
+          font-weight: lighter;
+          color: #8A0829;
+          font-size: 25px;
+          line-height: 25px; }
+  
+  
